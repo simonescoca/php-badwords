@@ -14,8 +14,8 @@
     </head>
     <body>
         <?php
-            $paragrafo = $_GET["paragrafo"];
-            $parolaDaCensurare = $_GET["censura"];
+            $paragrafo = $_POST["paragrafo"];
+            $parolaDaCensurare = $_POST["censura"];
         ?>
 
         <p class="paragrafo">
