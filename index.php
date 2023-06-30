@@ -9,11 +9,12 @@
     </head>
     <body>
         <form action="./server.php" method="POST" class="container py-5 input-group">
-            <input type="text" name="paragrafo" class="form-control" placeholder="Write a paragraph here" >
-            <input type="text" name="censura" class="form-control" placeholder="Parola da censurare">
-            <button type="submit" class="btn btn-outline-dark">
+            <input type="text" id="input1" name="paragrafo" class="form-control" placeholder="Write a paragraph here" >
+            <input type="text" id="input2" name="censura" class="form-control" placeholder="Parola da censurare">
+            <button type="submit" id="button" class="btn btn-outline-dark">
                 INVIA AL SERVER
             </button>
         </form>
+        <script src="index.js"></script>
     </body>
 </html>
